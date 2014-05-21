@@ -48,6 +48,8 @@ public class StockWatcher implements EntryPoint {
       public void onClick(ClickEvent event) {
         addStock();
       }
+      
+      
     });// Listen for keyboard events in the input box.
     newSymbolTextBox.addKeyDownHandler(new KeyDownHandler() {
         public void onKeyDown(KeyDownEvent event) {
