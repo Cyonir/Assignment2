@@ -47,6 +47,7 @@ public class StockWatcher implements EntryPoint {
     addStockButton.addClickHandler(new ClickHandler() {
       public void onClick(ClickEvent event) {
         addStock();
+        theBestFunction();
       }
       
       
@@ -61,6 +62,10 @@ public class StockWatcher implements EntryPoint {
 
   }
 
+	public void theBestFunction(){
+		JOptionPane.showMessageDialog(frame, "(>'-')> <('-'<) ^(' - ')^ <('-'<) (>'-')>");
+	
+}
   /**
    * Add stock to FlexTable. Executed when the user clicks the addStockButton or
    * presses enter in the newSymbolTextBox.
